@@ -1,11 +1,18 @@
 <script setup>
 
+import AppNav from "~/components/AppNav.vue";
 
 </script>
 
 <template>
   <div id="footer">
-<strong> this is the footer</strong>
+    <footer class="w-full">
+      <AppNav/>
+
+
+
+    </footer>
+
   </div>
 </template>
 

@@ -1,11 +1,10 @@
 <script setup>
+
 </script>
 
 <template>
-  <div  >
-    <slot />
-<AppFooter/>
-
+  <div>
+<strong>Art</strong>
   </div>
 </template>
 

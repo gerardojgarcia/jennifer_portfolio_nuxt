@@ -1,18 +1,17 @@
-<script>
-export default {
-  name: "index.vue"
-}
+<script setup>
+import AppHero from "../components/AppHero.vue"
+
+
 </script>
 
 <template>
-  <div id='hero' class="h-screen">
-<h1>Hello World</h1>
-  </div>
+<div>
+
+  <AppHero/>
+</div>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 
-#hero {
-  height: 95vh;
-}
+
 </style>
